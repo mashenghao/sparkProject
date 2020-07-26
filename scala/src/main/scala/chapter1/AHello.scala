@@ -1,7 +1,7 @@
 package chapter1
 
 /**
- * hello的细节：
+ * hello的细节：关于object与class的关系。
  *1. object表示一个伴生对象，简单理解为就是一个类的实例对象.
  *
  *2. AHello就是对象名字，他底层真正对应的类名是AHello$,
@@ -59,7 +59,7 @@ package chapter1
  * }
  *
  *  总结： 貌似还不太懂，object的作用，感觉就是一个类，剔出来一个静态变量，
- *  吧这个静态变量给别人，让别人调用类的方法的作用。
+ *  把这个静态变量给别人，让别人调用类的方法的作用。起到简化操作的作用，不用在new对象使用了。
  */
 object AHello {
   def main(args: Array[String]): Unit = {
